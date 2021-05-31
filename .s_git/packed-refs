@@ -1,0 +1,19 @@
+# pack-refs with: peeled fully-peeled sorted 
+5d3fb4ebe2fa51b03cdbda7b7ab007cc44121f4e refs/remotes/origin/aggregation-entity
+3a8da2a4ff0c415b73cfa165c50e0b4bfde39eb4 refs/remotes/origin/canary
+44252ab0f750397ac46d874c85ea324b0d7f8547 refs/remotes/origin/revert-2-multinetwork-support
+3097a7b1d175a77b3e1f7db5c25fa36a6137e9d7 refs/remotes/origin/update
+060d0a349e876240b960a5c6390afee7ea50c8a9 refs/remotes/origin/v1
+be9c9da1345ad7ca590d158a3db7af2a2ad1e952 refs/remotes/origin/v2
+3765db24d5ca7c16ab8f359f0505f48d21f8c545 refs/tags/v2.0.4
+^9da0e6a61405f8f565d15e719091b56246bb9e2f
+5cd762018415c5e431d3452c75ee9bc17fb3cfb3 refs/tags/v2.0.5
+^9d94967bfe59b14041b301ea857730e9a45ac87e
+37d3ebb02f7d8a324227b0f24a12c147aa3347b0 refs/tags/v2.1.0
+^f10af5d07073086948ae6a984547b7ad267402af
+67b32d7e8ea7c5f042a57c667de71272d58bc515 refs/tags/v3.0.0
+^fe859b329b35c373e878fcc02c803eed5973456b
+25a79bab1e9cad77bcfa58249ebbde2d56826252 refs/tags/v3.0.1
+^603dee89137773dc0fb3a1eadf33fe04cdcac86b
+e3f9c03dadf0f638caa15468476593356a202063 refs/tags/v3.0.2
+^d72eb54c3d86b995f00eb0677c16fa33e608a505
