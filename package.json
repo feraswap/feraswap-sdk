@@ -1,36 +1,32 @@
 {
   "name": "@feraswap/sdk",
   "license": "MIT",
-  "version": "1.0.0",
+  "version": "5.0.0-canary.12",
   "description": "🛠 An SDK for building applications on top of Feraswap.",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
   "files": [
     "dist"
   ],
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/feraswap/feraswap-sdk.git"
-  },
+  "repository": "https://github.com/feraswap/feraswap-sdk",
   "keywords": [
     "uniswap",
-    "sushiswap",
-    "ethereum",
-    "feraswap"
+    "feraswap",
+    "ethereum"
   ],
   "module": "dist/sdk.esm.js",
   "scripts": {
     "lint": "tsdx lint src test",
     "build": "tsdx build",
     "start": "tsdx watch",
-    "test": "tsdx test"
+    "test": "tsdx test",
+    "prepublishOnly": "tsdx build"
   },
   "dependencies": {
     "@uniswap/v2-core": "^1.0.0",
     "big.js": "^5.2.2",
     "decimal.js-light": "^2.5.0",
     "jsbi": "^3.1.1",
-    "npmrc": "^1.1.1",
     "tiny-invariant": "^1.1.0",
     "tiny-warning": "^1.0.3",
     "toformat": "^2.0.0"
@@ -60,13 +56,5 @@
     "printWidth": 120,
     "semi": false,
     "singleQuote": true
-  },
-  "bugs": {
-    "url": "https://github.com/feraswap/feraswap-sdk/issues"
-  },
-  "homepage": "https://github.com/feraswap/feraswap-sdk#readme",
-  "directories": {
-    "test": "test"
-  },
-  "author": "feraswap"
+  }
 }
