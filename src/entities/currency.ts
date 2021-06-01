@@ -122,7 +122,7 @@ export class Currency {
 }
 
 const NATIVE = Currency.ETHER
-
+const ETHER = Currency.ETHER
 // const NATIVE_CURRENCY = {
 //   [ChainId.MAINNET]: Currency.ETHER,
 //   [ChainId.ROPSTEN]: Currency.ETHER,
@@ -147,3 +147,4 @@ const NATIVE = Currency.ETHER
 // }
 
 export { NATIVE }
+export { ETHER }
